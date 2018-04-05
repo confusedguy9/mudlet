@@ -268,7 +268,7 @@ function InstallZziplib() {
     # The environmental variable APPVEYOR is set to TRUE on AppVeyor CI system
     # Use a specific US Mirror - as an attempt to get around intermittent
     # failures when using the generic SourceForge URL:
-    DownloadFile "https://superb-sea2.dl.sourceforge.net/project/zziplib/zziplib13/0.13.62/zziplib-0.13.62.tar.bz2" "zziplib-0.13.62.tar.bz2"
+    DownloadFile "https://svwh.dl.sourceforge.net/project/zziplib/zziplib13/0.13.62/zziplib-0.13.62.tar.bz2" "zziplib-0.13.62.tar.bz2"
   } else {
     # Use the original one:
     DownloadFile "https://sourceforge.net/projects/zziplib/files/zziplib13/0.13.62/zziplib-0.13.62.tar.bz2/download" "zziplib-0.13.62.tar.bz2"
